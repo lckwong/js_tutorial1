@@ -20,6 +20,20 @@ function addBook() {
     }
 }
 
+function deleteBook() {
+    const bookName = document.getElementById('bookName').value;
+    const result = books.find(book => book.name === bookName);
+    if(result) {
+        const index = books.findIndex(book => book === result);
+        books.splice(index, 1);
+        showbooks();
+        clearInputs();
+    }
+    else {
+        alert(bookName + " not found");
+    }
+}
+
 function showbooks() {
     const booksDiv = books.map((book, index) => 
     `<h1>book Number: ${index + 1}</h1>
