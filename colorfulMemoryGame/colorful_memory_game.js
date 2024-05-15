@@ -1,14 +1,16 @@
+const defaultTime = 45;
 const colors = ['red', 'blue', 'green', 'purple', 'orange', 'pink', 'red', 'blue', 'green', 'purple', 'orange', 'pink'];
 let cards = shuffle(colors.concat(colors));
 let selectedCards = [];
 let score = 0;
-let timeLeft = 30;
+let timeLeft = defaultTime;
 let gameInterval;
 
 const startbtn = document.getElementById('startbtn');
 const gameContainer = document.getElementById('game-container');
 const scoreElement = document.getElementById('score');
 const timerElement = document.getElementById('timer');
+timerElement.textContent = "Time Left: " + defaultTime;
 
 function generateCards() {
     for (const color of cards) {
@@ -58,7 +60,7 @@ function checkMatch() {
 }
 
 function startGame() {
-    let timeLeft = 30;
+    let timeLeft = defaultTime;
     startbtn.disabled = true;
     score = 0; // Reset score to zero
     scoreElement.textContent = `Score: ${score}`;
@@ -78,8 +80,14 @@ function startGameTimer(timeLeft) {
 
         if (timeLeft === 0) {
             clearInterval(gameInterval);
-            let timeLeft = 30;
+            let timeLeft = defaultTime;
             alert('Game Over!');
+            startbtn.disabled = false;
+        }
+        
+        if (score === 24) {
+            clearInterval(gameInterval);
+            alert('You win!');
             startbtn.disabled = false;
         }
     }, 1000);
