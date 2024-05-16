@@ -1,0 +1,68 @@
+{
+    "articles": [
+      {
+        "title": "New puppy's up for adoption!",
+        "description": "This article describes how you can get a new puppy.",
+        "news": [
+          "Puppy123 has 13 new litters of 16 puppies each up for adoption.",
+          "PuppyPound found 6 new litters of 9 puppies each and are looking to rehome these new additions!",
+          "Puppy's Galore is giving away 100 new puppies, its like raining dogs and dogs!"
+        ],
+        "related": [
+          "In new related news, new liter of kittens are also up for adoption at KittyCity.",
+          "Related article on 101 things to know about taking care of puppies.",
+          "You might also like all the health benefits of being a pet owner.",
+          "Breaking news, rex a 3 month old puppy has been dog-napped!"
+        ]
+      },
+      {
+        "title": "New hostage situation in the Lower mainland!",
+        "description": "Criminals have taken over a local music store and demands that tape decks are brought back to mainstream use again and have taken hostages until demands are met.",
+        "news": [
+          "What: Hostages taken and demands are made.",
+          "Where: Happening on corner of 123 Road and ABC Way at the Vintage Music Store.",
+          "Who: Looks like its a bunch of hippies from the commune, Music is Life, who are making the demands and have held themselves up at the store.",
+          "When: This all happened right after lunch where this allegedly this happened after a frustrated Music of Life member spilled their drink and threw a tantrum.",
+          "Whyj: Apparently the commune thinks that Vintage tape decks is the true way to heaven and that the music will be clues on the true path to heaven."
+        ],
+        "related": [
+          "In related news, someone saw the face of Mother Mary in their ramen noodles.",
+          "Did you know that we're all created from aliens and that they will be coming to take us home in 2026? More details to come at 6pm.",
+          "The new cure for cancer has been found in ant sperm.",
+          "A new civilization has been found at the bottom of the Mariana's Trench, looks like a distant cousin of the Atlantians."
+        ]
+      },
+      {
+        "title": "Gotham Giants are your Quidiche Champions!",
+        "description": "After a long hard battle against Metropolitan Mights, the under dogs that were the Giants came out on top to defeat the Mights!",
+        "news": [
+          "The game was hard fought and finally ended in quintuple overtime.",
+          "After what felt like a century long game, the 4th line fall back from the Mights, Bertha Bram tripped and launched the ball backwards to score the accidental own goal.",
+          "The crowd was awaken from their slumber to cries as they were finally able to go home.",
+          "Celebrations are expected to continue well into the next week."
+        ],
+        "related": [
+          "The Astro's are expected to make it to the finals.",
+          "Steriod is expected to be out 6 weeks while he recovers from his injuries.",
+          "Sports league to extend their contracts for 4 years.",
+          "Where have the Bangles gone to?."
+        ]
+      },
+      {
+        "title": "New Careers on the raise",
+        "description": "All the latest careers that are expected to be on the raise in the new few years.",
+        "news": [
+          "Professional Pet caterers is expected to grow by 300% in the next couple years.",
+          "AI rock sitters is not surprisingly growing industry in the next year.",
+          "New Psy-Cops are taking over law enforcement and new graduates will find jobs easily well into 2030's."
+        ],
+        "related": [
+          "The ultra rich to gain new tax credits.",
+          "How senator's are being replaced by zombies.",
+          "A new world order is said to be covertly taking over the dark web.",
+          "New evidence of a deep subterranian race has been discovered underneath North Korea."
+        ]
+      }
+    ]
+  }
+  

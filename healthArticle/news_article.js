@@ -1,5 +1,5 @@
 var xhr = new XMLHttpRequest();
-var url = './health_article.json';
+var url = './news_article.json';
 
 xhr.open('GET', url, true);
 xhr.responseType = 'json';
@@ -19,20 +19,20 @@ xhr.onload = function() {
         description.textContent = article.description;
     
         var waysHeader = document.createElement('h3');
-        waysHeader.textContent = 'Ways to Achieve:';
+        waysHeader.textContent = 'News:';
     
         var waysList = document.createElement('ul');
-        article.ways_to_achieve.forEach(function(way) {
+        article.news.forEach(function(way) {
           var listItem = document.createElement('li');
           listItem.textContent = way;
           waysList.appendChild(listItem);
         });
     
         var benefitsHeader = document.createElement('h3');
-        benefitsHeader.textContent = 'Benefits:';
+        benefitsHeader.textContent = 'Related:';
     
         var benefitsList = document.createElement('ul');
-        article.benefits.forEach(function(benefit) {
+        article.related.forEach(function(benefit) {
           var listItem = document.createElement('li');
           listItem.textContent = benefit;
           benefitsList.appendChild(listItem);
